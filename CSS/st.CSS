@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-color: #1c1c1c;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    align="center"
+}
+
+img {
+    max-width: 100%;
+}
+
+.hero {
+    background: url(../img/content/hero-bg.jpg) no-repeat center/cover;
+    height: 100%;
+}
+
+.container {
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 52px;
+    height: 42px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 28px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    color: #FFFFFF;
+}
+
+.btn {
+    background: #F6762C;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 36px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.hero__Content {
+    max-width: 49%;
+    padding-top: 186px;
+}
+
+.hero_info {
+    color: #FFFFFF;
+}
+
+.hero__headline {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 1.18;
+}
+
+.hero__title {
+    margin-bottom: 30px;
+}
+
+.hero__br {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 42px;
+}
+
+.food__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food__item {
+    width: 23%;
+}
+
+.food {
+    padding: 115px 0px 102px;
+}
+
+.dish {
+    background: #312f30;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.dish__img-wrap {
+    width: 172px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dish__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dish__br {
+    padding: 30px;
+    text-align: center;
+}
+
+.dish__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 13px;
+}
+
+.dish__text {}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.order {
+    padding: 73px 0px 85px;
+    background: rgba(49, 47, 48, 1);
+}
+
+.order__content {
+    display: flex;
+    align-items: center;
+}
+
+.order__column {
+    width: 50%;
+}
+
+.order__decor {}
+
+.order__img {}
+
+.order__info {
+    max-width: 371px;
+    margin-left: 98px;
+}
+
+.subtitle {
+    font-weight: 500;
+    Size: 44.2px;
+    line-height: 52px;
+    margin-bottom: 24px;
+}
+
+.order__text {
+    margin-bottom: 13px;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-style: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.price {
+    font-weight: 500;
+}
+
+.price__new {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: rgba(246, 118, 44, 1);
+
+}
+
+.price__old {
+    Font-size: 16px;
+    Line-height: 19px;
+    Letter-spacing: 0.1em;
+    text-decoration-line: line-through;
+    color: rgba(246, 118, 44, 0.2);
+}
+
+.btn {}
+
+.product {
+    padding: 150px 0px 146px;
+}
+
+.product__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.product__item {
+    width: 48%;
+    height: 300px;
+}
+
+.product__item:nth-child(even) .offer__content {
+    right: auto;
+    left: 50px;
+}
+
+.offer {
+    position: relative;
+}
+
+.offer__img0-wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.offer__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.offer__content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 47%;
+    padding-right: 24px;
+}
+
+.offer__title {}
+
+.paragraph {}
+
+.offer__paragraph {}
+
+.price {}
+
+.offer__price {}
+
+.price__new {}
+
+.offer__price-new {}
+
+.price__old {}
+
+.offer__price-old {}
+
+.btn {}
+
+.offer__btn {}
